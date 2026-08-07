@@ -1,0 +1,127 @@
+ /* Body Background */
+ body {
+    background-image: url('../images/home.jpg');  /* Make sure image is in the public/images folder */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /* Dropdown Button */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Button Style */
+  .dropdown-btn {
+    background-color: #087f5b; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Dropdown Content */
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Dropdown Links */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown menu when hovering */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Hover state for dropdown button */
+  .dropdown:hover .dropdown-btn {
+    background-color: #3e8e41;
+  }
+
+  /* Banner Section */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Full viewport height */
+    text-align: center; /* Semi-transparent background */
+  }
+
+  .banner h2 {
+    color:white;
+    font-family: 'Cursive', serif; /* Cursive font style */
+    font-size: 46px;
+    margin: 0;
+  }
+  
+  .banner p {
+    color:white;
+    font-family: 'Cursive', serif; /* Cursive font style */
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+
+  /* Main Section */
+  .main-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+  }
+
+  .section h3 {
+    color: #087f5b;
+  }
+
+  .section a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #087f5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .section a:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 0px;
+    background-color: darkgreen;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
